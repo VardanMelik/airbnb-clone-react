@@ -1,0 +1,27 @@
+.banner {
+    background: url('https://a0.muscache.com/im/pictures/f0483d09-7d13-42d0-a40a-46d585c42220.jpg?im_w=1440');
+    height: 110vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-bottom: 40x;
+    width: 300px;
+}
+
+.banner__info>button {
+    background-color: #FF385C;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info>h5 {
+    margin-top: 10px;
+}
