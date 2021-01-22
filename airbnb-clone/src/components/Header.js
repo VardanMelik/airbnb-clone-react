@@ -1,18 +1,23 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Avatar from '@material-ui/core/Avatar';
 import './Header.css';
+import Logo from '../assets/logo.png'
 
 function Header() {
     return (
         <div className="header">
-            <img
-                className="header__icon"
-                src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png"
-                alt=""
-            />
+            <Link to="/">
+                <img
+                    className="header__icon"
+                    src={Logo}
+                    //src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png"
+                    alt="logo"
+                />
+            </Link>
 
             <div className="header__center">
                 <input type="text" />

@@ -20,6 +20,7 @@
     text-transform: inherit;
     margin-top: 20px;
     font-weight: 600;
+    left: 10px;
 }
 
 .banner__info>button:hover {
@@ -38,6 +39,8 @@
     text-transform: inherit !important;
     color: #ff7779 !important;
 }
+
+.banner__info>h1 {}
 
 .banner__info>h5 {
     margin-top: 10px;
