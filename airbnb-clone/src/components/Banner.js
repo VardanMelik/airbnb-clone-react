@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import './Banner.css';
 import Search from './Search';
 import Button from '@material-ui/core/Button';
+import { useHistory } from "react-router-dom"; 
 
 function Banner() {
-
+    const history = useHistory();
     const [showSearch, setShowSearch] = useState(false);
 
     return (
@@ -27,6 +28,9 @@ function Banner() {
                     gems near you.
                 </h5>
                 <Button
+                    onClick={ 
+                        () => history.push('/search')
+                    }
                     variant='outlined'
                 >
                     Expore Nearby

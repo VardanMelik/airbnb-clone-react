@@ -7,21 +7,22 @@ function Footer() {
         <div className="footer">
             <p>© 2021 Airbnb, Inc. All rights reserved</p>
             
-            <Link to="/privacy">
+            <Link className="link" to="/privacy">
                 Privacy
             </Link>
 
-            <Link to="/terms">
+            <Link to="/terms" className="link">
                 Terms
             </Link>
 
-            <Link to="/sitemap">
+            <Link className="link" to="/sitemap">
                 Sitemap
             </Link>
 
-            <Link to="/cetails">
-                Company Details
+            <Link className="link" to="/cetails">
+                Company
             </Link>
+            
 
 
 
